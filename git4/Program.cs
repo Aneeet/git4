@@ -110,7 +110,7 @@ namespace git4
                         break;
                     case 2:
                         Kiril k = new Kiril();
-                       // k.InsertHalfOfMaxNum(ref arr);
+                        a.DoBlock_1(ref arr);
                         break;
                     case 3:
                         Array1Output(arr);
@@ -218,7 +218,7 @@ namespace git4
                         break;
                     case 2:
                         Kiril k = new Kiril();
-                        //k.AddRowAfterFirstRowWithMaxElem(ref arr);
+                        a.DoBlock_2(ref arr);
                         break;
                     case 3:
                         Array2Output(arr);
