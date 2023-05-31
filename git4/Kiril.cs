@@ -52,7 +52,7 @@ namespace git4
 
             for (int i = t; i < n; i++)                 // далі йдемо по масиву з t і до кінця, копіючи елементи з arr
             {
-                newArray[k + i] = arr[i];
+                newArray[k + i] = array[i];
             }
 
             array = newArray;                             // вхідний масив на новий.
