@@ -43,9 +43,12 @@ namespace git4
         }
         public void DoBlock_2(ref int[][] array)
         {
-            Console.WriteLine("Введіть кількість рядків");
-            string[] str = Console.ReadLine().Trim().Split();
-            int num1 = int.Parse(str[0]);
+            int num1 = 0;
+            for (int i = 0; i < array[i].GetLength(0); i++)
+            {
+                num1++;
+            }
+            
             int num = 0;
             if (num1 % 2 == 0)
             {
